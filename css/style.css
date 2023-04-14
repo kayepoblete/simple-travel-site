@@ -1,0 +1,58 @@
+
+body{
+    background-image: url('../images/sfBG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+}
+
+header{
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 2%;
+}
+
+#menu{
+    text-align: center;
+    font-size: larger;
+}
+
+a{ /*Nav bar objects*/
+    text-decoration: none;
+    color: gold;
+}
+
+a:hover { /*Change color when hovering*/
+    background-color: gold;
+    color: blue;
+  }
+
+.transparentBox{ /*Make background of box more transparent*/
+    background-color: white;
+    opacity: 0.6;
+    padding: 25px 50px 25px 50px;
+    margin: auto 2% auto 2%;
+}
+
+#textBox{ /*Paragraphs*/
+    text-align: justify;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+table{
+    border: 1px solid;
+}
+
+.setImg{
+    padding-top: 25px;
+}
+
+.column{
+    padding-left: 33%;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+}
